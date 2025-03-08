@@ -1,0 +1,10 @@
+# nixpacks.toml
+
+# Nome do app
+app_name = "teste-server"
+
+# Define o tipo de buildpack, no caso, para Next.js
+builder = "heroku/buildpacks:nextjs"
+
+# Define a porta do serviço
+port = 3000
